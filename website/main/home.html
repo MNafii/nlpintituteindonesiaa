@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>NLP Institute Indonesia</title>
+
+    <!-- Tailwind -->
+    <link rel="stylesheet" href="../dist/css/style.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Navbar -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <img src="../dist/img/logo.png" alt="logo" class="h-12 w-full">
+                </div>
+
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex space-x-8 font-medium">
+                    <a href="#" class="hover:text-amber-600">Home</a>
+                    <a href="#" class="hover:text-amber-600">About Us</a>
+                    <a href="#" class="hover:text-amber-600">Program</a>
+                    <a href="#" class="hover:text-amber-600">Product</a>
+                    <a href="#" class="hover:text-amber-600">Contact</a>
+                </nav>
+
+                <!-- Mobile Button -->
+                <button id="menu-btn" class="md:hidden text-gray-700">
+                    ☰
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4 space-y-3">
+                <a href="#" class="block">Home</a>
+                <a href="#" class="block">About Us</a>
+                <a href="#" class="block">Program</a>
+                <a href="#" class="block">Product</a>
+                <a href="#" class="block">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+            <!-- Left Content -->
+            <div>
+                <span
+                    class="inline-block bg-[radial-gradient(circle_at_50%_50%,_#faf5e3_0%,_#d4b472_100%)] text-themes-brown px-4 py-2 rounded-full text-sm font-medium mb-6">
+                    <i class="fa-solid fa-heart"></i> NLP INSTITUTE INDONESIA
+                </span>
+
+                <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+                    Scholar's <span class="text-themes-gold">Mind 🎓</span><br>
+                    A Moma's <span class="text-themes-darkbrown">Heart ❤️</span>
+                </h2>
+
+                <h3 class="text-xl md:text-2xl font-semibold mb-6">
+                    Passionate Coach for All Season.
+                </h3>
+
+                <p class="text-lg text-gray-600 mb-8">
+                    NLP transforms the educational landscape by
+                    providing targeted development programs for Kids & Teens.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#"
+                        class="bg-themes-gold text-white px-6 py-3 rounded-full font-medium hover:bg-themes-darkbrown transition">
+                        Explore Programs <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#"
+                        class="border border-themes-gold text-themes-gold px-6 py-3 rounded-full font-medium hover:bg-themes-gold hover:text-white transition">
+                        Contact <i class="fa-solid fa-arrow-right rotate-[-45deg] inline-block"></i>
+                    </a>
+                </div>
+
+                <div class="max-w-6xl pt-10">
+
+                    <!-- Title with lines -->
+                    <div class="flex items-center justify-between gap-5 mb-8">
+                        <div class="h-px bg-gray-400 lg:w-24 md:w-52 w-10"></div>
+                        <h2 class="text-xl font-semibold text-themes-darkbrown text-center">
+                            Our International Affiliation
+                        </h2>
+                        <div class="h-px bg-gray-400 lg:w-24 md:w-52 w-10"></div>
+                    </div>
+
+                    <!-- Logos -->
+                    <div class="grid grid-cols-4 md:grid-cols-4 gap-0 md:gap-10 items-center justify-items-center">
+
+                        <img src="../dist/img/home-page/logo001.png" class="h-16 md:h-24 object-contain">
+
+                        <img src="../dist/img/home-page/logo002.png" class="h-16 md:h-24 object-contain">
+
+                        <img src="../dist/img/home-page/logo003.png" class="h-16 md:h-24 object-contain">
+
+                        <img src="../dist/img/home-page/logo004.png" class="h-16 md:h-24 object-contain">
+
+                    </div>
+
+                    <!-- Bottom divider -->
+                    <div class="mt-8 border-t border-gray-400"></div>
+
+                </div>
+            </div>
+
+            <!-- Right Images -->
+            <div class="grid grid-cols-3 gap-6 max-sm:hidden">
+
+                <!-- Gambar kiri atas (besar) -->
+                <div class="col-span-2 row-span-1 h-[400px]">
+                    <img src="../dist/img/home-page/pic001.png" class="w-full h-full object-cover rounded-2xl">
+                </div>
+
+                <!-- Gambar kanan atas (tinggi/portrait) -->
+                <div class="col-span-1 row-span-2 h-[625px]">
+                    <img src="../dist/img/home-page/pic002.png" class="w-full h-full object-cover rounded-2xl">
+                </div>
+
+                <!-- Gambar kiri bawah -->
+                <div class="col-span-1 h-[200px]">
+                    <img src="../dist/img/home-page/pic003.png" class="w-full h-full object-cover rounded-2xl">
+                </div>
+
+                <!-- Gambar kanan bawah -->
+                <div class="col-span-1 h-[200px]">
+                    <img src="../dist/img/home-page/pic004.png" class="w-full h-full object-cover rounded-2xl">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-[#f3f3f3] py-16">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <!-- Badge -->
+            <div class="flex justify-center mb-6">
+                <span
+                    class="inline-block bg-[radial-gradient(circle_at_50%_50%,_#faf5e3_0%,_#d4b472_100%)] text-themes-brown px-4 py-2 rounded-full text-sm font-medium mb-6">
+                    <i class="fa-solid fa-star"></i> About Our Approach
+                </span>
+            </div>
+
+            <!-- Heading -->
+            <div>
+                <h2 class="text-center max-w-4xl mx-auto text-3xl md:text-4xl font-bold leading-tight">
+                    Transforming Lives Through
+                    <span class="text-themes-gold">Science-Backed NLP</span>
+                </h2>
+                <p class="text-center max-w-xl mx-auto mt-4 text-gray-600 text-base md:text-lg">
+                    We believe every child, teenager, and parent has unlimited potential.
+                    Our mission is to unlock that potential through evidence-based Neuro-Linguistic Programming.
+                </p>
+            </div>
+
+            <!-- Main Grid -->
+            <div class="mt-16 grid lg:grid-cols-2 gap-12 items-start">
+
+                <!-- LEFT SIDE -->
+                <div>
+
+                    <!-- Image -->
+                    <div class="rounded-3xl overflow-hidden shadow-lg">
+                        <img src="../dist/img/home-page/pic005.png" class="w-full h-96 object-cover">
+                    </div>
+
+                    <!-- Cards -->
+                    <div class="mt-8 grid sm:grid-cols-2 gap-6">
+
+                        <!-- Vision -->
+                        <div
+                            class="bg-[linear-gradient(135deg,_rgba(212,180,114,0.5),_rgba(250,245,227,0.5))] border-2 border-themes-gold/50 p-6 rounded-3xl flex flex-col justify-between">
+                            <div class="flex items-center">
+                                <div class="inline-block">
+                                    <div class="px-3 py-3 rounded-2xl bg-themes-gold flex">
+                                        <i class="fa-solid fa-heart text-themes-brown text-2xl"></i>
+                                    </div>
+                                </div>
+                                <h3 class="font-semibold text-lg ps-2">Vision</h3>
+                            </div>
+                            <p class="text-sm text-gray-700">
+                                To create a better life by transforming people through training and coaching.
+                            </p>
+                        </div>
+
+                        <!-- Mission -->
+                        <div
+                            class="bg-[linear-gradient(135deg,_rgba(212,180,114,0.5),_rgba(250,245,227,0.5))] border-2 border-themes-gold/50 p-6 rounded-3xl flex flex-col justify-between">
+                            <div class="flex flex-column items-center pb-5">
+                                <div class="inline-block">
+                                    <div class="px-3 py-3 rounded-2xl bg-themes-gold flex">
+                                        <i class="fa-solid fa-bullseye text-themes-brown text-2xl"></i>
+                                    </div>
+                                </div>
+                                <h3 class="font-semibold text-lg ps-2">Mission</h3>
+                            </div>
+
+                            <ul class="text-sm text-gray-700 list-disc pl-5 space-y-1 ">
+                                <li>To develop and maximize Human Potentials</li>
+                                <li>To deliver High Quality of Training and Coaching with Passion for Excellence</li>
+                                <li>To consistently Improve with Continuity of Learning</li>
+                                <li>To contribute and be Socially Responsible for Community</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <!-- Achievement -->
+                    <div
+                        class="mt-6 bg-[linear-gradient(135deg,_rgba(212,180,114,0.5),_rgba(250,245,227,0.5))] border-2 border-themes-gold/50 p-6 rounded-3xl">
+                        <div class="flex flex-column items-center pb-5">
+                            <div class="inline-block">
+                                <div class="px-3 py-3 rounded-2xl bg-themes-gold flex">
+                                    <i class="fa-solid fa-trophy text-themes-brown text-2xl"></i>
+                                </div>
+                            </div>
+                            <h3 class="font-semibold text-lg ps-2">Our Achievements</h3>
+                        </div>
+
+                        <p class="text-sm text-gray-700">
+                            Milestone <strong>10,000+</strong> Coachee. <br><br>
+                            Proven story to more than <strong>10,000 Alumni</strong>
+                            who is <strong>break free from limits.</strong>
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="space-y-8">
+
+                    <div>
+                        <h3 class="text-2xl font-bold mb-3">Our Focus</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            After 17 years raising a Champion, we’ve experienced that
+                            individuals who have a strong foundation for success
+                            can unlock their potential at a young age.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold mb-3">
+                            What is NLP <span class="text-themes-darkbrown">Institute Indonesia?</span>
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            NLP (Neuro-Linguistic Programming) is a cutting-edge thinking technology that serves as the
+                            heart of communication and transformation across all aspects of human life, from business
+                            and leadership to health. <br><br>
+
+                            As a global innovation that has empowered millions, we introduce NLP Next Generation, moving
+                            beyond conventional techniques toward a systemic and generative approach. <br><br>
+
+                            Through 'field-based' techniques and a whole-system perspective (fourth position), this
+                            Third Generation NLP focuses on higher levels of learning including identity, vision, and
+                            mission to drive profound change for individuals, teams, and organizational culture as a
+                            whole.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold mb-3">
+                            Why We Are <span class="text-themes-darkbrown">Different?</span>
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            NLP Institute Indonesia (under PT. Inspirasi Cipta Indonesia) is a premier training and
+                            consulting firm established on October 30, 2007. <br><br>
+
+                            Founded by Irene Corry, the first and only authorized NLP Master Trainer in Indonesia
+                            affiliated with Robert Dilts and Judith DeLozier, we specialize in high-quality programs for
+                            Management, HRD, and International Certification. <br><br>
+
+                            We provide tailored Training, Coaching, and Assessment for corporate, government, and
+                            personal needs, dedicated to unlocking human potential through the advanced technology of
+                            Neuro-Linguistic Programming. <br><br>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="bg-[#f3f3f3] py-20">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <!-- Badge -->
+            <div class="flex justify-center mb-6">
+                <span
+                    class="inline-block bg-[radial-gradient(circle_at_50%_50%,_#faf5e3_0%,_#d4b472_100%)] text-themes-brown px-4 py-2 rounded-full text-sm font-medium mb-6">
+                    <i class="fa-solid fa-star"></i> Transformational Programs
+                </span>
+            </div>
+
+            <!-- Heading -->
+            <div class="text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold leading-tight">
+                    Programs Designed for
+                    <span class="text-themes-gold">Every Journey</span>
+                </h2>
+                <p class="mt-4 text-gray-600 text-base md:text-lg">
+                    Comprehensive NLP-based programs tailored to meet the unique needs
+                    of children, teenagers, parents, and young adults preparing for their future.
+                </p>
+            </div>
+
+            <!-- Cards -->
+            <div class="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+                <!-- CARD 1 -->
+                <div
+                    class="bg-white rounded-3xl shadow-sm hover:shadow-lg hover:-translate-y-1 transform transition duration-300 overflow-hidden flex flex-col">
+
+                    <!-- Image -->
+                    <div class="h-56 overflow-hidden">
+                        <img src="../dist/img/home-page/pic006.png"
+                            class="w-full h-full object-cover group-hover:scale-105">
+                    </div>
+
+                    <!-- Content -->
+                    <div class="p-8 flex flex-col flex-grow">
+
+                        <div
+                            class="w-12 h-12 rounded-xl bg-[linear-gradient(135deg,_#ce9e3a,_#faf5e3)] flex items-center justify-center mb-4">
+                            <i class="fa-solid fa-star text-themes-brown"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold mb-3">
+                            Kids and Teens Program
+                        </h3>
+
+                        <p class="text-gray-600 text-sm leading-relaxed flex-grow pb-28">
+                            Build confidence, emotional intelligence, and resilience in young minds
+                            through fun, engaging NLP techniques.
+                        </p>
+
+                        <div class="mt-6 border-t pt-6">
+                            <a href="#"
+                                class="group inline-block w-full text-center bg-[linear-gradient(135deg,_#ce9e3a,_#d2c3a2)] text-white py-3 rounded-full font-medium transition duration-300">
+                                Explore Programs <i
+                                    class="fa-solid fa-arrow-right group-hover:translate-x-2 transition transform duration-300"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div
+                    class="bg-white rounded-3xl shadow-sm hover:shadow-lg hover:-translate-y-1 transform transition duration-300 overflow-hidden flex flex-col">
+
+                    <div class="h-56 overflow-hidden">
+                        <img src="../dist/img/home-page/pic007.png"
+                            class="w-full h-full object-cover group-hover:scale-105">
+                    </div>
+
+                    <div class="p-8 flex flex-col flex-grow">
+
+                        <div
+                            class="w-12 h-12 rounded-xl bg-[linear-gradient(135deg,_#ce9e3a,_#faf5e3)] flex items-center justify-center mb-4">
+                            <i class="fa-solid fa-users text-themes-brown"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold mb-3">
+                            Parents Program
+                        </h3>
+
+                        <p class="text-gray-600 text-sm leading-relaxed flex-grow pb-28">
+                            Transform your parenting approach with NLP tools to create deeper
+                            connections and nurture your child’s potential.
+                        </p>
+
+                        <div class="mt-6 border-t pt-6">
+                            <a href="#"
+                                class="group inline-block w-full text-center bg-[linear-gradient(135deg,_#ce9e3a,_#d2c3a2)] text-white py-3 rounded-full font-medium transition duration-300">
+                                Explore Programs <i
+                                    class="fa-solid fa-arrow-right group-hover:translate-x-2 transition transform duration-300"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div
+                    class="bg-white rounded-3xl shadow-sm hover:shadow-lg hover:-translate-y-1 transform transition duration-300 overflow-hidden flex flex-col">
+
+                    <div class="h-56 overflow-hidden">
+                        <img src="../dist/img/home-page/pic008.png"
+                            class="w-full h-full object-cover group-hover:scale-105">
+                    </div>
+
+                    <div class="p-8 flex flex-col flex-grow">
+
+                        <div
+                            class="w-12 h-12 rounded-xl bg-[linear-gradient(135deg,_#ce9e3a,_#faf5e3)] flex items-center justify-center mb-4">
+                            <i class="fa-solid fa-graduation-cap text-themes-brown"></i>
+                        </div>
+
+                        <h3 class="text-xl font-semibold mb-3">
+                            Lecturer's Program
+                        </h3>
+
+                        <p class="text-gray-600 text-sm leading-relaxed flex-grow pb-28">
+                            Prepare for university success with advanced NLP strategies for
+                            leadership, presentation skills, and career planning.
+                        </p>
+
+                        <div class="mt-6 border-t pt-6">
+                            <a href="#"
+                                class="group inline-block w-full text-center bg-[linear-gradient(135deg,_#ce9e3a,_#d2c3a2)] text-white py-3 rounded-full font-medium transition duration-300">
+                                Explore Programs <i
+                                    class="fa-solid fa-arrow-right group-hover:translate-x-2 transition transform duration-300"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonian Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4">
+
+            <!-- Badge -->
+            <div class="flex justify-center mb-6">
+                <span
+                    class="inline-block bg-[radial-gradient(circle_at_50%_50%,_#faf5e3_0%,_#d4b472_100%)] text-themes-brown px-4 py-2 rounded-full text-sm font-medium mb-6">
+                    <i class="fa-solid fa-heart"></i> About their Comments
+                </span>
+            </div>
+
+            <!-- Heading -->
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold">
+                    Proven Results. <span class="text-themes-gold">Real Stories.</span>
+                </h2>
+                <p class="text-gray-600 mt-4 text-sm md:text-base">
+                    Our clients’ success speaks for itself. Explore how we turn challenges
+                    into measurable growth and lasting impact.
+                </p>
+            </div>
+
+            <!-- Testimonials Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+
+                <!-- Card 1 -->
+                <div
+                    class="bg-[linear-gradient(135deg,_rgba(212,180,114,0.5),_rgba(250,245,227,0.5))] border-2 border-themes-gold/50 rounded-2xl p-6 shadow-sm">
+                    <div class="text-amber-500 mb-3">★★★★★</div>
+                    <p class="text-gray-700 text-sm mb-6">
+                        “Camp nya seru, materinya sangat bermanfaat dan cara mengajarnya
+                        seru dan berguna bagi kehidupanku.”
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-black rounded-full flex justify-center items-center"><i
+                                class="fa-solid fa-user text-themes-gold text-2xl"></i></div>
+                        <div>
+                            <p class="font-semibold text-sm">Natan</p>
+                            <p class="text-xs text-gray-500">Global Prestasi School</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="bg-[linear-gradient(135deg,_rgba(212,180,114,0.5),_rgba(250,245,227,0.5))] border-2 border-themes-gold/50 rounded-2xl p-6 shadow-sm">
+                    <div class="text-amber-500 mb-3">★★★★★</div>
+                    <p class="text-gray-700 text-sm mb-6">
+                        “Training ini sangat membantu saya dalam kehidupan kedepannya dan
+                        materi yang diberikan dapat di implementasikan dalam sekolah dan kehidupan ku.”
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-black rounded-full flex justify-center items-center"><i
+                                class="fa-solid fa-user text-themes-gold text-2xl"></i></div>
+                        <div>
+                            <p class="font-semibold text-sm">Vincent Cohen</p>
+                            <p class="text-xs text-gray-500">Jhon’s Paul School</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="bg-[linear-gradient(135deg,_rgba(212,180,114,0.5),_rgba(250,245,227,0.5))] border-2 border-themes-gold/50 rounded-2xl p-6 shadow-sm">
+                    <div class="text-amber-500 mb-3">★★★★★</div>
+                    <p class="text-gray-700 text-sm mb-6">
+                        “Camp ini sangat bermanfaat bagi saya dan membantu saya
+                        mengarahkan untuk mencapai goal dan masa depan.”
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-black rounded-full flex justify-center items-center"><i
+                                class="fa-solid fa-user text-themes-gold text-2xl"></i></div>
+                        <div>
+                            <p class="font-semibold text-sm">Ivana</p>
+                            <p class="text-xs text-gray-500">SMA Santa Ursula</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div
+                    class="bg-[linear-gradient(135deg,_rgba(212,180,114,0.5),_rgba(250,245,227,0.5))] border-2 border-themes-gold/50 rounded-2xl p-6 shadow-sm">
+                    <div class="text-amber-500 mb-3">★★★★★</div>
+                    <p class="text-gray-700 text-sm mb-6">
+                        “Camp ini sangat bermanfaat bagi saya, saya akan mengajak teman-teman
+                        untuk mengikuti camp ini. Banyak hal baru yang saya dapat dalam camp ini.”
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-black rounded-full flex justify-center items-center"><i
+                                class="fa-solid fa-user text-themes-gold text-2xl"></i></div>
+                        <div>
+                            <p class="font-semibold text-sm">Angel</p>
+                            <p class="text-xs text-gray-500">SMP Waringin Bandung</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div
+                    class="bg-[linear-gradient(135deg,_rgba(212,180,114,0.5),_rgba(250,245,227,0.5))] border-2 border-themes-gold/50 rounded-2xl p-6 shadow-sm">
+                    <div class="text-amber-500 mb-3">★★★★★</div>
+                    <p class="text-gray-700 text-sm mb-6">
+                        “Saya sangat puas dalam mengikuti Training Genius Teens ini.
+                        Saya banyak belajar hal baru yang tidak di ajarkan di sekolah.”
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-black rounded-full flex justify-center items-center"><i
+                                class="fa-solid fa-user text-themes-gold text-2xl"></i></div>
+                        <div>
+                            <p class="font-semibold text-sm">Priscilla</p>
+                            <p class="text-xs text-gray-500">SMA Santa Ursula</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div
+                    class="bg-[linear-gradient(135deg,_rgba(212,180,114,0.5),_rgba(250,245,227,0.5))] border-2 border-themes-gold/50 rounded-2xl p-6 shadow-sm">
+                    <div class="text-amber-500 mb-3">★★★★★</div>
+                    <p class="text-gray-700 text-sm mb-6">
+                        “Saya puas banget bisa ikut camp ini, saya bisa ketemu banyak orang baru,
+                        saya bisa lebih percaya diri.”
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-black rounded-full flex justify-center items-center"><i
+                                class="fa-solid fa-user text-themes-gold text-2xl"></i></div>
+                        <div>
+                            <p class="font-semibold text-sm">Tari</p>
+                            <p class="text-xs text-gray-500">SMA Santa Ursula POS</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Video Section -->
+            <div class="bg-gray-200 rounded-3xl flex flex-col lg:flex-row gap-8 items-center">
+
+                <!-- Image -->
+                <div class="relative w-full lg:w-1/2">
+                    <img src="../dist/img/home-page/pic009.png" class="rounded-3xl w-full object-cover"
+                        alt="Video Testimonial">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div
+                            class="w-16 h-16 bg-black bg-opacity-70 rounded-full flex items-center justify-center text-white text-2xl">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content -->
+                <div class="w-full lg:w-1/2 me-10">
+                    <span
+                        class="inline-block text-themes-brown bg-[radial-gradient(circle_at_50%_50%,_#faf5e3_0%,_#d4b472_100%)] text-xs px-4 py-2 rounded-full mb-4">
+                        <i class="fa-solid fa-video"></i> Testimonial Video
+                    </span>
+                    <h3 class="text-2xl md:text-3xl font-bold mb-4">
+                        What they say about The Invisible Support
+                    </h3>
+                    <p class="text-gray-600 text-sm md:text-base mb-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- CTA -->
+            <div class="text-center mt-16">
+                <h4 class="text-xl md:text-2xl font-bold mb-6">
+                    Want to See Other Testimonial Videos?
+                </h4>
+                <button
+                    class="bg-themes-gold hover:bg-themes-darkbrown text-white px-6 py-3 rounded-full text-sm font-medium transition">
+                    See Other Testimonials <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="max-w-6xl mx-auto px-4">
+
+            <!-- Label -->
+            <div class="flex justify-center mb-6">
+                <span
+                    class="inline-block bg-[radial-gradient(circle_at_50%_50%,_#faf5e3_0%,_#d4b472_100%)] text-themes-brown px-4 py-2 rounded-full text-sm font-medium mb-6">
+                    <i class="fa-solid fa-microphone"></i> Blog & Events
+                </span>
+            </div>
+
+            <!-- Heading -->
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <h2 class="text-3xl md:text-4xl font-bold">
+                    Latest Updates &
+                    <span class="text-themes-gold">Upcoming Events</span>
+                </h2>
+                <p class="text-gray-600 mt-4 text-sm md:text-base">
+                    Follow our journey through key updates, achievements, and events
+                    that shape our progress and future direction.
+                </p>
+            </div>
+
+            <!-- Cards Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Card -->
+                <div class="bg-white rounded-3xl p-4 shadow-sm hover:shadow-md transition">
+                    <div class="relative overflow-hidden rounded-2xl group">
+                        <img src="https://picsum.photos/600/400"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition duration-500"
+                            alt="Blog Image">
+
+                        <!-- Arrow Button -->
+                        <div class="absolute top-3 right-3">
+                            <div
+                                class="w-9 h-9 bg-black text-white rounded-full flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-arrow-right rotate-[-45deg] inline-block"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-5">
+                        <h3 class="font-semibold text-lg mb-2">Lorem ipsum dolor</h3>
+                        <p class="text-sm text-gray-600">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Duplicate Card (x5) -->
+                <div class="bg-white rounded-3xl p-4 shadow-sm hover:shadow-md transition">
+                    <div class="relative overflow-hidden rounded-2xl group">
+                        <img src="https://picsum.photos/600/400"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition duration-500"
+                            alt="Blog Image">
+                        <div class="absolute top-3 right-3">
+                            <div
+                                class="w-9 h-9 bg-black text-white rounded-full flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-arrow-right rotate-[-45deg] inline-block"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-5">
+                        <h3 class="font-semibold text-lg mb-2">Lorem ipsum dolor</h3>
+                        <p class="text-sm text-gray-600">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-3xl p-4 shadow-sm hover:shadow-md transition">
+                    <div class="relative overflow-hidden rounded-2xl group">
+                        <img src="https://picsum.photos/600/400"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition duration-500"
+                            alt="Blog Image">
+                        <div class="absolute top-3 right-3">
+                            <div
+                                class="w-9 h-9 bg-black text-white rounded-full flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-arrow-right rotate-[-45deg] inline-block"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-5">
+                        <h3 class="font-semibold text-lg mb-2">Lorem ipsum dolor</h3>
+                        <p class="text-sm text-gray-600">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-3xl p-4 shadow-sm hover:shadow-md transition">
+                    <div class="relative overflow-hidden rounded-2xl group">
+                        <img src="https://picsum.photos/600/400"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition duration-500"
+                            alt="Blog Image">
+                        <div class="absolute top-3 right-3">
+                            <div
+                                class="w-9 h-9 bg-black text-white rounded-full flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-arrow-right rotate-[-45deg] inline-block"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-5">
+                        <h3 class="font-semibold text-lg mb-2">Lorem ipsum dolor</h3>
+                        <p class="text-sm text-gray-600">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-3xl p-4 shadow-sm hover:shadow-md transition">
+                    <div class="relative overflow-hidden rounded-2xl group">
+                        <img src="https://picsum.photos/600/400"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition duration-500"
+                            alt="Blog Image">
+                        <div class="absolute top-3 right-3">
+                            <div
+                                class="w-9 h-9 bg-black text-white rounded-full flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-arrow-right rotate-[-45deg] inline-block"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-5">
+                        <h3 class="font-semibold text-lg mb-2">Lorem ipsum dolor</h3>
+                        <p class="text-sm text-gray-600">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-3xl p-4 shadow-sm hover:shadow-md transition">
+                    <div class="relative overflow-hidden rounded-2xl group">
+                        <img src="https://picsum.photos/600/400"
+                            class="w-full h-56 object-cover group-hover:scale-105 transition duration-500"
+                            alt="Blog Image">
+                        <div class="absolute top-3 right-3">
+                            <div
+                                class="w-9 h-9 bg-black text-white rounded-full flex items-center justify-center text-sm">
+                                <i class="fa-solid fa-arrow-right rotate-[-45deg] inline-block"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-5">
+                        <h3 class="font-semibold text-lg mb-2">Lorem ipsum dolor</h3>
+                        <p class="text-sm text-gray-600">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CTA -->
+            <div class="text-center mt-16">
+                <h3 class="text-xl md:text-2xl font-bold mb-4">
+                    Want to See Other News & Events?
+                </h3>
+                <p class="text-gray-600 text-sm md:text-base mb-6 max-w-2xl mx-auto">
+                    Explore what’s happening right now. From company news to special events,
+                    see how we’re making an impact every day.
+                </p>
+
+                <a href="#"
+                    class="inline-block bg-themes-gold hover:bg-themes-darkbrown text-white px-8 py-3 rounded-full text-sm font-medium transition">
+                    See Other News & Event <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4">
+
+            <!-- Badge -->
+            <div class="flex justify-center mb-6">
+                <span
+                    class="inline-block bg-[radial-gradient(circle_at_50%_50%,_#faf5e3_0%,_#d4b472_100%)] text-themes-brown px-4 py-2 rounded-full text-sm font-medium mb-6">
+                    <i class="fa-solid fa-heart"></i> Get In Touch
+                </span>
+            </div>
+
+            <!-- Heading -->
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <h2 class="text-3xl md:text-4xl font-bold leading-tight">
+                    Let's Start Your
+                    <span class="text-themes-gold">Transformation Journey</span>
+                </h2>
+                <p class="text-gray-600 mt-4 text-sm md:text-base">
+                    Have questions or ready to begin? We're here to help you take the first
+                    step towards a more empowered, emotionally intelligent future.
+                </p>
+            </div>
+
+            <!-- Main Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+                <!-- LEFT COLUMN -->
+                <div class="lg:col-span-2 space-y-8">
+
+                    <!-- Contact Form -->
+                    <div class="bg-white rounded-3xl p-6 md:p-10 shadow-sm border">
+                        <h3 class="text-xl font-semibold mb-8">Send us a Message</h3>
+
+                        <form class="space-y-6">
+
+                            <!-- Row 1 -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-sm font-medium mb-2">Full Name *</label>
+                                    <input type="text" placeholder="Your name"
+                                        class="w-full bg-gray-100 rounded-full px-5 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-themes-darkbrown">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium mb-2">Email Address *</label>
+                                    <input type="email" placeholder="you@example.com"
+                                        class="w-full bg-gray-100 rounded-full px-5 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-themes-darkbrown">
+                                </div>
+                            </div>
+
+                            <!-- Row 2 -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-sm font-medium mb-2">Phone Number *</label>
+                                    <input type="text" placeholder="+1 000-0000"
+                                        class="w-full bg-gray-100 rounded-full px-5 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-themes-darkbrown">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium mb-2">Program You Interested in *</label>
+                                    <select
+                                        class="w-full bg-gray-100 rounded-full px-5 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-themes-darkbrown">
+                                        <option>Selected Program</option>
+                                        <option>Leadership Camp</option>
+                                        <option>Emotional Intelligence Training</option>
+                                        <option>Teen Development Program</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Message -->
+                            <div>
+                                <label class="block text-sm font-medium mb-2">Your Message *</label>
+                                <textarea rows="4" placeholder="Tell us about your goals and what you're looking for..."
+                                    class="w-full bg-gray-100 rounded-2xl px-5 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-themes-darkbrown"></textarea>
+                            </div>
+
+                            <!-- Button -->
+                            <button type="submit"
+                                class="w-full md:w-auto bg-themes-gold hover:bg-themes-darkbrown text-white px-8 py-3 rounded-full text-sm font-medium transition">
+                                ➤ Send Message
+                            </button>
+
+                        </form>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="bg-white rounded-3xl p-6 md:p-8 shadow-sm border">
+                        <h3 class="text-lg font-semibold mb-6">Follow Our Journey</h3>
+
+                        <div class="flex flex-wrap gap-4">
+                            <a href="#"
+                                class="w-12 h-12 flex items-center justify-center rounded-xl bg-gradient-to-r from-pink-500 to-purple-500 text-white text-xl"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="#"
+                                class="w-12 h-12 flex items-center justify-center rounded-xl bg-blue-600 text-white text-xl"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="#"
+                                class="w-12 h-12 flex items-center justify-center rounded-xl bg-red-600 text-white text-xl"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                            <a href="#"
+                                class="w-12 h-12 flex items-center justify-center rounded-xl bg-sky-500 text-white text-xl"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT COLUMN -->
+                <div class="space-y-8">
+
+                    <!-- WhatsApp Card -->
+                    <div class="rounded-3xl p-8 text-white bg-gradient-to-br from-green-400 to-emerald-700">
+                        <div class="text-4xl mb-4"><i class="fa-solid fa-comment"></i></div>
+                        <h3 class="text-xl font-semibold mb-3">Prefer WhatsApp?</h3>
+                        <p class="text-sm text-white/90 mb-6">
+                            Chat with us directly for quick answers and instant support.
+                        </p>
+                        <a href="#"
+                            class="inline-block w-full py-3 bg-white text-green-700 rounded-full text-sm text-center font-medium hover:bg-gray-100 transition">
+                            Open WhatsApp Chat
+                        </a>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="bg-white rounded-3xl p-6 md:p-8 shadow-sm border">
+                        <h3 class="text-lg font-semibold mb-6">Contact information</h3>
+
+                        <div class="space-y-5 text-sm text-gray-700">
+
+                            <div>
+                                <p class="font-medium mb-1">Email</p>
+                                <a href="mailto:ani.nlpinstituteindonesia@gmail.com" class="text-themes-gold underline">
+                                    ani.nlpinstituteindonesia@gmail.com
+                                </a>
+                            </div>
+
+                            <div>
+                                <p class="font-medium mb-1">Location</p>
+                                <p>
+                                    Jl. Angkasa Kav B6, Kec. Kemayoran,<br>
+                                    Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10610
+                                </p>
+                            </div>
+
+                            <div>
+                                <p class="font-medium mb-1">Phone</p>
+                                <a href="tel:+6287777111697" class="text-themes-gold underline">
+                                    +62 877-7711-1697
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4">
+
+            <div class=" rounded-2xl">
+
+                <!-- Content Wrapper -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+
+                    <!-- LEFT CONTENT -->
+                    <div>
+
+                        <!-- Logo + Title -->
+                        <div class="flex items-center gap-4 mb-6">
+                            <img src="../dist/img/logo.png" alt="logo" class="h-3/4 w-2/4">
+                        </div>
+
+                        <!-- Description -->
+                        <p class="text-gray-600 text-sm leading-relaxed mb-8 max-w-md">
+                            Empowering minds and transforming lives through evidence-based NLP coaching
+                            for kids, teenagers, and parents. Building emotional intelligence, resilience,
+                            and self-leadership for lasting success.
+                        </p>
+
+                        <!-- Contact Info -->
+                        <div class="space-y-4 text-sm text-gray-700">
+
+                            <div class="flex items-start gap-3">
+                                <span class="text-amber-600">✉️</span>
+                                <a href="mailto:ani.nlpinstituteindonesia@gmail.com" class="hover:underline">
+                                    ani.nlpinstituteindonesia@gmail.com
+                                </a>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <span class="text-amber-600">📞</span>
+                                <a href="tel:+6287777111697" class="hover:underline">
+                                    +62 877-7711-1697
+                                </a>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <span class="text-amber-600">📍</span>
+                                <p>
+                                    Jl. Angkasa Kav B6, Kec. Kemayoran, Kota Jakarta Pusat,
+                                    Daerah Khusus Ibukota Jakarta 10610
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- RIGHT SIDE (Optional empty for spacing like design) -->
+                    <div class="hidden md:block"></div>
+
+                </div>
+
+                <!-- Divider -->
+                <div class="border-t mt-10 pt-6 text-sm text-gray-500">
+                    © 2026 NLP Institute Indonesia
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Script Mobile Menu -->
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+
+</html>
